@@ -23,3 +23,4 @@ contract BaseVoting {
         return yesVotes + noVotes;
     }
 }
+}
