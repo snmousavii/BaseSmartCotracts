@@ -18,8 +18,3 @@ contract BaseReputation {
     function getReputation(address user) external view returns (uint256) {
         return reputation[user];
     }
-
-    function getActivities(address user) external view returns (uint256) {
-        return activities[user];
-    }
-}
