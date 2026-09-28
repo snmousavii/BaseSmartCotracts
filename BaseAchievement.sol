@@ -50,3 +50,6 @@ contract BaseAchievement {
         emit AchievementUpdated(msg.sender, title);
     }
 }
+        emit AchievementUpdated(msg.sender, title);
+    }
+}
